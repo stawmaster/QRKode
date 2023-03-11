@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_1"
+    style="@style/AppTheme.MaterialTheme"
+    tools:context=".activity_open_img"
+    >
+
+
+
+
+
+        <ImageView
+            android:id="@+id/idIVgalImg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:id="@+id/idTVScanData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="150dp"
+            android:background="@color/black_1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Scanned data will appear here"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/yellow"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/idBtnGal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50sp"
+            android:text="Load image from gallery"
+            android:padding="10dp"
+            android:background="@drawable/btnback"
+            />
+
+        <TextView
+            android:id="@+id/idTVnotice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:background="@color/black_1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Large images are not handled by the app"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/red"
+            android:textSize="14sp" />
+
+</RelativeLayout>

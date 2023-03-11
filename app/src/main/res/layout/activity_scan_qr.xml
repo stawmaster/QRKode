@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".scanQR"
+    android:background="@color/black_1">
+
+    <eu.livotov.labs.android.camview.ScannerLiveView
+        android:id="@+id/camView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:text="Scanned data will appear here"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/yellow"
+        android:background="@color/black_1"
+        android:textSize="18sp"
+        android:id="@+id/idTVScannedData"
+        />
+
+</RelativeLayout>
